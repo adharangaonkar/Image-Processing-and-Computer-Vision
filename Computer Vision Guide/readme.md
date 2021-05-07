@@ -1,4 +1,4 @@
-# Notes and code used in [**Python and OpenCV course**](https://youtu.be/oXlwWbU8l2o) on [freeCodeCamp.org](http://freecodecamp.org).
+# Notes and code are from [**Python and OpenCV course**](https://youtu.be/oXlwWbU8l2o) on [freeCodeCamp.org](http://freecodecamp.org).
 
 ## 1. Basic Concepts:
 - Reading Images and Video ([0:04:12](https://www.youtube.com/watch?v=x3c8w2ruhjs&t=252s))
