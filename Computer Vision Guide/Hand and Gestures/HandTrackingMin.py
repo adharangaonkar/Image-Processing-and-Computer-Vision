@@ -9,6 +9,8 @@ mpHands = mp.solutions.hands
 hands = mpHands.Hands()
 mpDraw = mp.solutions.drawing_utils
 
+pTime = 0
+cTime = 0
 
 while True:
     success, img = cap.read()
@@ -21,7 +23,12 @@ while True:
         for handLms in results.multi_hand_landmarks:
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
+    cTime = time.time()
+    fps = 1/(cTime - pTime)
+    pTime = cTime
 
+    cv2.putText(img, str(int(fps)), (10,70), cv2.FONT_HERSHEY_SIMPLEX, 3,
+                                           (255,0,255), 3)
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
