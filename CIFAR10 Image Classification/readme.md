@@ -27,3 +27,9 @@ Steps to train an image classifier
 3. Define a loss function
 4. Train the network on the training data
 5. Test the network on the test data
+
+
+## References
+
+* [PyTorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+* [LeNet-5](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
