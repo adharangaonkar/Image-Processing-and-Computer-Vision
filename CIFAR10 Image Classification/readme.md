@@ -16,3 +16,14 @@ This provides a huge convenience and avoids writing boilerplate code.
 For this project, we will use the CIFAR10 dataset. It has the classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’. The images in CIFAR-10 are of size 3x32x32, i.e. 3-channel color images of 32x32 pixels in size.
 
 ![Image Classes](https://github.com/adharangaonkar/Image-Processing-and-Computer-Vision/blob/main/CIFAR10%20Image%20Classification/images/image_classes.png?raw=true "Image Classes")
+
+
+## Training an Image Classifier
+
+Steps to train an image classifier
+
+1. Load and normalize the CIFAR10 training and test datasets using torchvision
+2. Define a Convolutional Neural Network
+3. Define a loss function
+4. Train the network on the training data
+5. Test the network on the test data
