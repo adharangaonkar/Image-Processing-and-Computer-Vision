@@ -67,3 +67,8 @@ Many popular computer vision applications involve trying to recognize things in 
 * Object Recognition: What objects are in this photograph and where are they?
 
 Other common examples are related to information retrieval; for example: finding images like an image or images that contain an object.
+
+## References
+
+* [Machine Learning Mastery](https://machinelearningmastery.com/what-is-computer-vision/)
+* [IBM](https://www.ibm.com/topics/computer-vision#:~:text=Computer%20vision%20is%20a%20field,recommendations%20based%20on%20that%20information.)
